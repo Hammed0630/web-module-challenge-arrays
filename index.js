@@ -114,8 +114,8 @@ Hint: You can use .splice() for this
 */
 
  function removeFlavorByName(arr, flavor){
-    for(let i =0; i< arr.length; i++){
-        if (arr[i] === flavor);{
+    for(let i = 0; i < arr.length; i++){
+        if (arr[i] === flavor){
      arr.splice(i, 1)
     }
    }
